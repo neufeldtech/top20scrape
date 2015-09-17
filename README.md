@@ -5,7 +5,7 @@ This project visit the current CBC Radio 2 top 20 music page and collects the li
 ### Dependencies
   - Ruby (with various gems installed via 'bundle install')
   - Youtube-DL (can be found at https://rg3.github.io/youtube-dl/)
-
+  - avconv or ffmpeg libraries for the MP3 conversion done by youtube-dl
 ### Build instructions
 ```sh
 git clone https://github.com/neufeldtech/top20scrape.git
