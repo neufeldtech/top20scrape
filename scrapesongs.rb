@@ -13,3 +13,7 @@ results.each do |r|
     puts "found a youtube link: #{r.value}"
   end
 end
+
+
+# working example of preserving metadata.  Seems to break if song title has Ampersand chars in it.
+#youtube-dl -i -x --audio-format mp3 --embed-thumbnail --add-metadata --metadata-from-title "%(artist)s - %(title)s"  https://youtu.be/JP1bfczrg-s
