@@ -6,7 +6,7 @@ This project hits a desired CBC Radio 2 playlog and scrapes it for song info.  I
   - Ruby (tested with ruby version 2.2)
   - Bundler (`gem install bundler`)
   - [Youtube-DL](https://rg3.github.io/youtube-dl/)
-  - A Google/Youtube API Key (see [Building](#Building))
+  - A Google/Youtube API Key (see [Building](#building))
   - [avconv or ffmpeg](https://libav.org/download/) libraries for the MP3 conversion done by youtube-dl
   - [eyeD3](http://eyed3.nicfit.net/cli.html) (On Ubuntu/Debian it is available via `sudo apt-get install eyed3`)
 
