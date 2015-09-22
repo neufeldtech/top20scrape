@@ -4,7 +4,7 @@ require 'open-uri'
 
 def alreadyDownloaded(log, link)
   File.open(log).each_line do |line|
-    if (line.chomp == link.chomp)
+    if (line.chomp.split("/")[-1] == link.chomp.split("/")[-1])
       return true
     end
   end
