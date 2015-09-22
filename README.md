@@ -3,7 +3,7 @@ This project evolved from when it started and the title is not-so-relevant anymo
 This project hits a desired CBC Radio 2 playlog and scrapes it for song info.  It then will search youtube for each song, download it with youtube-dl and convert it to an MP3 and add appropriate ID3 tags.
 
 ### Dependencies
-  - Ruby (tested with ruby version 2.2)
+  - Ruby (tested with ruby version 2.2) also ruby-dev if on Ubuntu
   - Bundler (`gem install bundler`)
   - [Youtube-DL](https://rg3.github.io/youtube-dl/)
   - A Google/Youtube API Key (see [Building](#api-key))
