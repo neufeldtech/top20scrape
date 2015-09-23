@@ -1,0 +1,2 @@
+- Recommend FFMPEG instead of avconv (image moving may not work with avconv)
+- Figure out FFMPEG dependencies 
